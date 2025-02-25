@@ -4,7 +4,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-This collection showcases my recent data-driven projects. It is presented in the format of Jupyter Notebooks and PDF presentations.
+This collection showcases my recent data-driven projects. It is presented in the format of Jupyter Notebooks, presentations, and reports.
 
 ## Content
 
