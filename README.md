@@ -34,7 +34,7 @@ __Methods__: computer modeling of small molecule toxicity
 
 ### Building RAG-Powered Chatbot
 
-__Status__:  _in progress_
+__Status__:  _done_
 
 __Tools__: MongoDB, LLM APIs, BeautifulSoup 
 
@@ -43,7 +43,7 @@ __Methods__: Retrieval Augmented Generation, web scraping, data cleaning
 Implementation of the results is available here: [https://github.com/datomo/rag-workshop](https://github.com/datomo/rag-workshop/tree/main/builder/partnerproduct)
 
 ---
-If you found these projects interesting and would like to discuss the portfolio further or explore potential work opportunities or collaboration possibilities, please don't hesitate to reach out to me.
+If you found these projects interesting and would like to discuss the portfolio further or explore potential collaboration possibilities, please don't hesitate to reach out to me on [LinkedIn][linkedin-url].
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
