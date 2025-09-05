@@ -1,0 +1,17 @@
+name: adaptive-algorithms
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - tqdm
+  - pandas
+  - pytorch
+  - ipykernel
+  - scikit-learn
+  - pip:
+    - torch-optimizer
