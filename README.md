@@ -10,37 +10,57 @@ This collection showcases my recent data-driven projects. It is presented in the
 
 ### Heart Attack Prediction Project
   
-__Status__:  _done_
+- **Status:** ✅ *Done*  
+- **Tools:** pandas · scikit-learn · seaborn · matplotlib  
+- **Methods:** EDA · Logistic Regression · SVM · XGBoost  
 
-__Tools__: `pandas`, `sklearn`, `seaborn`, `matplotlib`
-
-__Methods__: EDA, Classification (logistic regression, SVM, XGB)  
 
 ### Analysis of CITE-seq data from a brain organoid
   
-__Status__:  _done_
+This project processes and analyzes **CITE-seq single-cell data** from a brain organoid,  
+covering the full pipeline from **raw data processing** to **dimensionality reduction** and visualization.  
 
-__Tools__: `alevin-fry`, `salmon`, `scanpy`, `matplotlib`
+- **Status:** ✅ *Done*  
+- **Tools:** alevin-fry · salmon · scanpy · matplotlib  
+- **Methods:** Raw Data Processing · EDA · Data Cleaning · Dimensionality Reduction  
 
-__Methods__: Raw Data Processing, EDA, Data Cleaning, Dimensionality Reduction 
 
 ### In Silico Prediction of Tartrazine Toxicity
 
-__Status__:  _done_
+This project leverages **computational toxicology tools** to model and analyse the potential toxicity  
+of **tartrazine**, a widely used synthetic dye.  
 
-__Tools__: VirtualToxLab, PanScreen, Molinspiration, ProTox-3.0, SwissADME
+- **Status:** ✅ *Done*  
+- **Tools:** VirtualToxLab · PanScreen · Molinspiration · ProTox-3.0 · SwissADME  
+- **Methods:** Computer Modeling of Small Molecule Toxicity  
 
-__Methods__: computer modeling of small molecule toxicity 
 
 ### Building RAG-Powered Chatbot
 
-__Status__:  _done_
+This project develops a **Retrieval Augmented Generation (RAG)** chatbot, implementing data  
+cleaning, retrieval, and reranking to provide context-aware responses for university documents.  
 
-__Tools__: MongoDB, LLM APIs, BeautifulSoup 
+- **Status:** ✅ *Done*  
+- **Tools:** MongoDB · LLM APIs · BeautifulSoup  
+- **Methods:** Retrieval Augmented Generation · Web Scraping · Data Cleaning · Reranking  
+- **Implementation:** [GitHub – RAG Workshop](https://github.com/datomo/rag-workshop/tree/main/builder/partnerproduct)  
 
-__Methods__: Retrieval Augmented Generation, web scraping, data cleaning
+### Differentially Private Learning for Blood Cell Image Classification  
 
-Implementation of the results is available here: [https://github.com/datomo/rag-workshop](https://github.com/datomo/rag-workshop/tree/main/builder/partnerproduct)
+This project explores **differentially private learning** for blood cell image classification using the **BloodMNIST dataset**.  
+It focuses on training a **compact CNN with DP-SGD**, comparing its performance to a non-private model to assess the **privacy–utility trade-off**.  
+ 
+- **Status:** ✅ *Done*  
+- **Tools:** PyTorch · Opacus · MedMNIST  
+- **Methods:** CNNs · DP-SGD · Hyperparameter Tuning  
+
+### Comparative Study of Adaptive Algorithms  
+
+This work compares **adaptive optimization algorithms** (AdaGrad, AdaGrad-Norm, RMSprop, Adam) with gradient descent, stochastic gradient descent, and Quasi-Newton methods through both **theoretical analysis** (convergence rates, complexity, memory) and **empirical evaluation** on binary and multiclass classification tasks with convex and non-convex losses.  
+
+- **Status:** ✅ *Done*  
+- **Tools:** PyTorch · scikit-learn 
+- **Methods:** Adaptive Optimizers (AdaGrad, AdaGrad-Norm, RMSprop, Adam) · Convergence & Complexity Analysis
 
 ---
 If you found these projects interesting and would like to discuss the portfolio further or explore potential collaboration possibilities, please don't hesitate to reach out to me on [LinkedIn][linkedin-url].
