@@ -1,0 +1,26 @@
+name: medmnist-env
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.10
+  - matplotlib>=3.5.0
+  - numba=0.58.1
+  - numpy=1.24.4
+  - pandas=2.2.0
+  - pillow=9.5.0
+  - pytorch::pytorch=2.1.2
+  - pytorch::torchvision
+  - scikit-learn=1.2.2
+  - torchvision=0.16.2
+  - tqdm=4.66.1
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+      - fire
+      - scikit-image
+      - medmnist
+      - jupyterlab
+      - opacus==1.4.0

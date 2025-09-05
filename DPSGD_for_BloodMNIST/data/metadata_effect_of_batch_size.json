@@ -1,0 +1,172 @@
+{
+    "experiment_id": "effect_of_batch_size",
+    "data_flag": "bloodmnist",
+    "num_epochs": 100,
+    "num_initializations": 3,
+    "patience": 10,
+    "min_delta": 0.01,
+    "min_epochs": 40,
+    "batch_sizes": [
+        1024,
+        512,
+        256,
+        128,
+        64,
+        32,
+        16
+    ],
+    "clipping_param": 20.6914,
+    "delta": 7.000000000000001e-09,
+    "epsilon": 2,
+    "used_device": "cuda",
+    "learning_rate": 0.00127,
+    "batch_results": {
+        "1024": {
+            "train_acc_mean": 0.7655322351367171,
+            "train_acc_std": 0.029835086145156717,
+            "train_auc_mean": 0.958191274935902,
+            "train_auc_std": 0.008034518733890635,
+            "test_acc_mean": 0.7634220013641236,
+            "test_acc_std": 0.029173023365334554,
+            "test_auc_mean": 0.9574757162784002,
+            "test_auc_std": 0.00765823769276285,
+            "early_stop_epochs_mean": 50.0,
+            "early_stop_epochs_std": 6.164414002968976,
+            "training_time_mean": 268.6673983423332,
+            "training_time_std": 29.012749541246556,
+            "epoch_time_mean": 4.454079976075465,
+            "epoch_time_std": 0.3703988480438303,
+            "best_models": [
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_0_best_epoch_57_auc_0.9689_acc_0.8043.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_1_best_epoch_48_auc_0.9640_acc_0.7903.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_2_best_epoch_42_auc_0.9491_acc_0.7307.pth"
+            ]
+        },
+        "512": {
+            "train_acc_mean": 0.7904785795913817,
+            "train_acc_std": 0.009053881520894575,
+            "train_auc_mean": 0.9642723374860539,
+            "train_auc_std": 0.0017789065106489574,
+            "test_acc_mean": 0.790314722790607,
+            "test_acc_std": 0.007049243787464053,
+            "test_auc_mean": 0.9621669717101717,
+            "test_auc_std": 0.0015418998524620595,
+            "early_stop_epochs_mean": 55.333333333333336,
+            "early_stop_epochs_std": 7.586537784494029,
+            "training_time_mean": 299.8733252536659,
+            "training_time_std": 38.33700801802771,
+            "epoch_time_mean": 4.522069389181789,
+            "epoch_time_std": 0.3786436638530697,
+            "best_models": [
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_0_best_epoch_62_auc_0.9690_acc_0.8166.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_1_best_epoch_57_auc_0.9640_acc_0.7862.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_2_best_epoch_44_auc_0.9674_acc_0.7985.pth"
+            ]
+        },
+        "256": {
+            "train_acc_mean": 0.7862697549962371,
+            "train_acc_std": 0.007785406365799279,
+            "train_auc_mean": 0.9604256305029608,
+            "train_auc_std": 0.0019246930398356759,
+            "test_acc_mean": 0.7809607327292215,
+            "test_acc_std": 0.013012179697907196,
+            "test_auc_mean": 0.9583055539950222,
+            "test_auc_std": 0.002847350899142411,
+            "early_stop_epochs_mean": 48.333333333333336,
+            "early_stop_epochs_std": 2.0548046676563256,
+            "training_time_mean": 281.11745718366683,
+            "training_time_std": 11.152329217340707,
+            "epoch_time_mean": 4.790285322642831,
+            "epoch_time_std": 0.4025799705653262,
+            "best_models": [
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_0_best_epoch_47_auc_0.9627_acc_0.7856.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_1_best_epoch_50_auc_0.9663_acc_0.8026.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_2_best_epoch_45_auc_0.9650_acc_0.7938.pth"
+            ]
+        },
+        "128": {
+            "train_acc_mean": 0.7864648660701844,
+            "train_acc_std": 0.00260906863424177,
+            "train_auc_mean": 0.9613060606088363,
+            "train_auc_std": 0.0015953025590558867,
+            "test_acc_mean": 0.7787196726103479,
+            "test_acc_std": 0.003102734741905985,
+            "test_auc_mean": 0.9587056421618354,
+            "test_auc_std": 0.0023776989356175155,
+            "early_stop_epochs_mean": 45.666666666666664,
+            "early_stop_epochs_std": 2.357022603955158,
+            "training_time_mean": 306.32555345066675,
+            "training_time_std": 12.058069027310475,
+            "epoch_time_mean": 5.557141672277769,
+            "epoch_time_std": 0.4288151645765874,
+            "best_models": [
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_0_best_epoch_48_auc_0.9603_acc_0.7862.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_1_best_epoch_43_auc_0.9633_acc_0.8026.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_2_best_epoch_43_auc_0.9637_acc_0.7886.pth"
+            ]
+        },
+        "64": {
+            "train_acc_mean": 0.7719987735875352,
+            "train_acc_std": 0.007421656869542356,
+            "train_auc_mean": 0.9559827494012841,
+            "train_auc_std": 0.0029271691289016544,
+            "test_acc_mean": 0.7666374354477248,
+            "test_acc_std": 0.009500021235534334,
+            "test_auc_mean": 0.9541770375053623,
+            "test_auc_std": 0.002871464942141236,
+            "early_stop_epochs_mean": 43.666666666666664,
+            "early_stop_epochs_std": 0.9428090415820634,
+            "training_time_mean": 404.0233708036629,
+            "training_time_std": 5.851798790061792,
+            "epoch_time_mean": 7.576098121132006,
+            "epoch_time_std": 0.42316704213947887,
+            "best_models": [
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_0_best_epoch_44_auc_0.9635_acc_0.7886.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_1_best_epoch_42_auc_0.9568_acc_0.7699.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_2_best_epoch_42_auc_0.9556_acc_0.7810.pth"
+            ]
+        },
+        "32": {
+            "train_acc_mean": 0.7124062770019789,
+            "train_acc_std": 0.004879767371857053,
+            "train_auc_mean": 0.9379108452835294,
+            "train_auc_std": 0.0025576397490781476,
+            "test_acc_mean": 0.7056416252557732,
+            "test_acc_std": 0.007187948218457743,
+            "test_auc_mean": 0.936052598693184,
+            "test_auc_std": 0.0030397262524326342,
+            "early_stop_epochs_mean": 45.0,
+            "early_stop_epochs_std": 4.242640687119285,
+            "training_time_mean": 659.875055348001,
+            "training_time_std": 52.39436481041959,
+            "epoch_time_mean": 12.030321235868884,
+            "epoch_time_std": 0.20594284183432654,
+            "best_models": [
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_0_best_epoch_41_auc_0.9420_acc_0.7307.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_1_best_epoch_41_auc_0.9430_acc_0.7243.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_2_best_epoch_50_auc_0.9412_acc_0.7407.pth"
+            ]
+        },
+        "16": {
+            "train_acc_mean": 0.6765058393957131,
+            "train_acc_std": 0.01190435364820568,
+            "train_auc_mean": 0.918836682652978,
+            "train_auc_std": 0.00728904933108485,
+            "test_acc_mean": 0.6773847802786709,
+            "test_acc_std": 0.00940359221782698,
+            "test_auc_mean": 0.9176401948508975,
+            "test_auc_std": 0.007299946421600256,
+            "early_stop_epochs_mean": 44.0,
+            "early_stop_epochs_std": 2.160246899469287,
+            "training_time_mean": 1102.1969620110024,
+            "training_time_std": 32.84658406534405,
+            "epoch_time_mean": 20.14315421354395,
+            "epoch_time_std": 0.4138475329908697,
+            "best_models": [
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_0_best_epoch_42_auc_0.9213_acc_0.6776.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_1_best_epoch_41_auc_0.9126_acc_0.6630.pth",
+                "/content/drive/MyDrive/BloodMNIST_Experiments/weights/effect_of_batch_size/model_init_2_best_epoch_46_auc_0.9328_acc_0.7144.pth"
+            ]
+        }
+    }
+}

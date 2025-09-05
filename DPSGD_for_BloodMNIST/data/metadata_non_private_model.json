@@ -1,0 +1,39 @@
+{
+    "experiment_id": "non_private_model",
+    "data_flag": "bloodmnist",
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "num_epochs": 100,
+    "num_initializations": 3,
+    "patience": 10,
+    "min_delta": 0.01,
+    "min_epochs": 40,
+    "best_models": [
+        "/content/drive/MyDrive/BloodMNIST_Experiments/weights/non_private_model/model_init_0_best_epoch_48_auc_0.9972_acc_0.9480.pth",
+        "/content/drive/MyDrive/BloodMNIST_Experiments/weights/non_private_model/model_init_1_best_epoch_41_auc_0.9972_acc_0.9515.pth",
+        "/content/drive/MyDrive/BloodMNIST_Experiments/weights/non_private_model/model_init_2_best_epoch_41_auc_0.9972_acc_0.9568.pth"
+    ],
+    "used_device": "cuda",
+    "early_stop_epochs": [
+        49,
+        42,
+        42
+    ],
+    "early_stop_times": [
+        250.5423711490006,
+        218.00085260100002,
+        216.77042739399894
+    ],
+    "avg_epoch_time": 4.204378227877298,
+    "std_epoch_time": 0.3284168749952113,
+    "final_results": {
+        "train_acc_mean": 1.0,
+        "train_acc_std": 0.0,
+        "train_auc_mean": 1.0,
+        "train_auc_std": 0.0,
+        "test_acc_mean": 0.9477735554905973,
+        "test_acc_std": 0.0018071944841655987,
+        "test_auc_mean": 0.9966954897273621,
+        "test_auc_std": 0.00026054623855118495
+    }
+}
