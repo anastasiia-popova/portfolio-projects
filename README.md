@@ -7,12 +7,30 @@
 This collection showcases my recent data-driven projects. It is presented in the format of Jupyter Notebooks, presentations, and reports.
 
 ## Content
+### Deep Reinforcement Learning from Visual Inputs: Quantifying Representational Capacity and Architectural Inductive Bias
 
-### Heart Attack Prediction Project
-  
+The project aims to study how encoder architecture choices (MLP vs CNN) in deep reinforcement learning from images affect the optimization dynamics, sample efficiency, training stability, and generalization behavior of policy-gradient methods.
+
+- **Status:** ⚙️ *In Progress*  
+- **Tools:** PyTorch · ALE 
+- **Methods:** Reinforcement Learning· CNNs · Hyperparameter Tuning  
+
+### Comparative Study of Adaptive Algorithms  
+
+This work compares **adaptive optimization algorithms** (AdaGrad, AdaGrad-Norm, RMSprop, Adam) with gradient descent, stochastic gradient descent, and Quasi-Newton methods through both **theoretical analysis** (convergence rates, complexity, memory) and **empirical evaluation** on binary and multiclass classification tasks with convex and non-convex losses.  
+
 - **Status:** ✅ *Done*  
-- **Tools:** pandas · scikit-learn · seaborn · matplotlib  
-- **Methods:** EDA · Logistic Regression · SVM · XGBoost  
+- **Tools:** PyTorch · scikit-learn 
+- **Methods:** Adaptive Optimizers (AdaGrad, AdaGrad-Norm, RMSprop, Adam) · Convergence & Complexity Analysis
+
+### Differentially Private Learning for Blood Cell Image Classification  
+
+This project explores **differentially private learning** for blood cell image classification using the **BloodMNIST dataset**.  
+It focuses on training a **compact CNN with DP-SGD**, comparing its performance to a non-private model to assess the **privacy–utility trade-off**.  
+ 
+- **Status:** ✅ *Done*  
+- **Tools:** PyTorch · Opacus · MedMNIST  
+- **Methods:** CNNs · DP-SGD · Hyperparameter Tuning  
 
 
 ### Analysis of CITE-seq data from a brain organoid
@@ -24,17 +42,6 @@ covering the full pipeline from **raw data processing** to **dimensionality redu
 - **Tools:** alevin-fry · salmon · scanpy · matplotlib  
 - **Methods:** Raw Data Processing · EDA · Data Cleaning · Dimensionality Reduction  
 
-
-### In Silico Prediction of Tartrazine Toxicity
-
-This project leverages **computational toxicology tools** to model and analyse the potential toxicity  
-of **tartrazine**, a widely used synthetic dye.  
-
-- **Status:** ✅ *Done*  
-- **Tools:** VirtualToxLab · PanScreen · Molinspiration · ProTox-3.0 · SwissADME  
-- **Methods:** Computer Modeling of Small Molecule Toxicity  
-
-
 ### Building RAG-Powered Chatbot
 
 This project develops a **Retrieval Augmented Generation (RAG)** chatbot, implementing data  
@@ -45,22 +52,21 @@ cleaning, retrieval, and reranking to provide context-aware responses for univer
 - **Methods:** Retrieval Augmented Generation · Web Scraping · Data Cleaning · Reranking  
 - **Implementation:** [GitHub – RAG Workshop](https://github.com/datomo/rag-workshop/tree/main/builder/partnerproduct)  
 
-### Differentially Private Learning for Blood Cell Image Classification  
 
-This project explores **differentially private learning** for blood cell image classification using the **BloodMNIST dataset**.  
-It focuses on training a **compact CNN with DP-SGD**, comparing its performance to a non-private model to assess the **privacy–utility trade-off**.  
- 
-- **Status:** ✅ *Done*  
-- **Tools:** PyTorch · Opacus · MedMNIST  
-- **Methods:** CNNs · DP-SGD · Hyperparameter Tuning  
+### In Silico Prediction of Tartrazine Toxicity
 
-### Comparative Study of Adaptive Algorithms  
-
-This work compares **adaptive optimization algorithms** (AdaGrad, AdaGrad-Norm, RMSprop, Adam) with gradient descent, stochastic gradient descent, and Quasi-Newton methods through both **theoretical analysis** (convergence rates, complexity, memory) and **empirical evaluation** on binary and multiclass classification tasks with convex and non-convex losses.  
+This project leverages **computational toxicology tools** to model and analyse the potential toxicity  
+of **tartrazine**, a widely used synthetic dye.  
 
 - **Status:** ✅ *Done*  
-- **Tools:** PyTorch · scikit-learn 
-- **Methods:** Adaptive Optimizers (AdaGrad, AdaGrad-Norm, RMSprop, Adam) · Convergence & Complexity Analysis
+- **Tools:** VirtualToxLab · PanScreen · Molinspiration · ProTox-3.0 · SwissADME  
+- **Methods:** Computer Modeling of Small Molecule Toxicity  
+
+### Heart Attack Prediction Project
+  
+- **Status:** ✅ *Done*  
+- **Tools:** pandas · scikit-learn · seaborn · matplotlib  
+- **Methods:** EDA · Logistic Regression · SVM · XGBoost  
 
 ---
 If you found these projects interesting and would like to discuss the portfolio further or explore potential collaboration possibilities, please don't hesitate to reach out to me on [LinkedIn][linkedin-url].
