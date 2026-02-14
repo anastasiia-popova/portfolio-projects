@@ -9,19 +9,20 @@ This collection showcases my recent data-driven projects. It is presented in the
 ## Content
 
 ### Post-Training Compression for Dermatology Classification
+
 The project studies post-training compression of a MedMNIST image classifier (DINOv3 ConvNeXt-Tiny backbone) to achieve a smaller model size and faster CPU inference with minimal loss in predictive performance. It compares INT8 quantization, structured and unstructured magnitude pruning, and combined P→FT→Q pipelines, reporting ACC/AUC/F1, serialized size, and CPU latency.
 
-Status:  ✅ *Done*   
-Tools: PyTorch · DINOv3 · MedMNIST  |  [[GitHub repo link]](https://github.com/anastasiia-popova/compressed-medvision-classifier)
-Methods: Post-training Quantization (INT8/FBGEMM) · Magnitude Pruning · Classification 
+- **Status:** ✅ *Done*  |  [[GitHub repo link]](https://github.com/anastasiia-popova/compressed-medvision-classifier)
+- **Tools:** PyTorch · DINOv3 · MedMNIST 
+- **Methods:** Post-training Quantization (INT8/FBGEMM) · Magnitude Pruning · Classification 
 
 ### Deep Reinforcement Learning from Visual Inputs: Quantifying Representational Capacity and Architectural Inductive Bias
 
-The project aims to study how encoder architecture choices (MLP vs CNN) in deep reinforcement learning from images affect the optimization dynamics, sample efficiency, training stability, and generalization behavior of policy-gradient methods.
+The project aims to study how encoder architecture choices (MLP vs. CNN) in deep reinforcement learning from images impact the optimization dynamics, sample efficiency, training stability, and generalization behavior of policy-gradient methods.
 
 - **Status:** ✅ *Done*  | [[GitHub repo link]](https://github.com/anastasiia-popova/visual-rl-encoders)
-- **Tools:** PyTorch · ALE 
-- **Methods:** Reinforcement Learning · A2C · CNNs vs MLPs · Hyperparameter Tuning  
+- **Tools:** PyTorch · ALE · Wandb
+- **Methods:** Reinforcement Learning · A2C · CNNs vs MLPs 
 
 ### Comparative Study of Adaptive Algorithms  
 
