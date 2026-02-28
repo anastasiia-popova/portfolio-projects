@@ -18,7 +18,7 @@ The project studies post-training compression of a MedMNIST image classifier (DI
 
 ### Deep Reinforcement Learning from Visual Inputs: Quantifying Representational Capacity and Architectural Inductive Bias
 
-The project aims to study how encoder architecture choices (MLP vs. CNN) in deep reinforcement learning from images impact the optimization dynamics, sample efficiency, training stability, and generalization behavior of policy-gradient methods.
+The project studies how encoder architecture choices (MLP vs. CNN) in deep reinforcement learning from images affect the optimization dynamics, sample efficiency, training stability, and generalization behavior of policy-gradient methods.
 
 - **Status:** ✅ *Done*  | [[GitHub repo link]](https://github.com/anastasiia-popova/visual-rl-encoders)
 - **Tools:** PyTorch · ALE · Wandb
