@@ -8,6 +8,15 @@ This collection showcases my recent data-driven projects. It is presented in the
 
 ## Content
 
+### Developing a Generative Model for Global Medium-Range Probabilistic Weather Forecasting
+
+This project aims to develop a probabilistic weather forecasting model on WeatherBench-2 and evaluate its forecast skill and computational cost. First, a transformer-based baseline using stochastic interpolants is developed, including a posteriori tuning of the noise schedule, and the resulting impact on probabilistic scores is assessed. The framework is then refined by using a mid-sized architecture designed to efficiently model information propagation, which has previously achieved state-of-the-art performance on PDE benchmarks. *This is the topic of my Master’s thesis at the University of Basel.*
+
+- **Status:** ⚙️ *In progress*  
+- **Tools:** PyTorch · Ray · xarray
+- **Methods:** Probabilistic Forecasting · Generative Modeling · Transformers
+
+ 
 ### Post-Training Compression for Dermatology Classification
 
 The project studies post-training compression of a MedMNIST image classifier (DINOv3 ConvNeXt-Tiny backbone) to achieve a smaller model size and faster CPU inference with minimal loss in predictive performance. It compares INT8 quantization, structured and unstructured magnitude pruning, and combined P→FT→Q pipelines, reporting ACC/AUC/F1, serialized size, and CPU latency.
